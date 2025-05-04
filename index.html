@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap link  -->
+  <link rel="stylesheet" href="css/bootstrap css/bootstrap.min.css">
+  <!-- css link  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- fontawesome link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- animation css  -->
+  <link rel="stylesheet" href="css/animation.css">
+  <!-- media css  -->
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+   <div class="container">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">VILLA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Properties</a>
+            <a class="nav-link" href="#">Property Detials</a>
+            <a class="nav-link" href="#">Contact Us</a>
+            <div class="schedule-button">
+              <div class="icon-circle">
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+              Schedule a visit
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </nav>
+   </div>
+ 
+    <!-- banner section  -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-flex justify-content-center align-items-center flex-column" style="background-image: url(images/banner-01.jpg);">
+          <div  class="banner1" >
+            <div class="button d-flex justify-content-center align-items-center">
+            <span style=" font-size: 20px;">Toronta, </span>
+            <span style=" font-size: 20px;color: #F35525; padding-left: 5px;"> Canada</span>
+          </div>
+          
+            <h2 style="color: white; font-size: 60px; font-weight: 900;">Hurry! <br> Get the Best Villa for you</h2>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url(images/banner-02.jpg);">
+        </div>
+        <div class="carousel-item" style="background-image: url(images/banner-03.jpg);">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- about us start  -->
+     <div class="container featured my-5 ">
+      <div class="row ">
+        <div class="col-lg-4 col-sm-6 col-12 ">
+          <img src="images/featured.jpg" alt="" class="w-100 ">
+        </div>
+        <div class="col-lg-5 col-sm-6 col-12 about-text my-3" >
+          <span>Featured</span>
+          <h1 class="mb-4 mt-3">Best <br> Appartment & <br> Sea view</h1>
+          <div class="div d-flex flex-column justify-content-around ">
+            <div class="d-flex flex-column" >
+             <div class="div1 p-3 " onclick="showDiv()" style="border-bottom: 1px solid black;">
+              <h5>Best Usefuls Links ?</h5>
+             </div>
+             <div class="div2 my-3 p-3" style="display: none;" id="div2" >
+              <p >Get the best villa website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the best free CSS templates in the world. Please tell your friends about it.</p>
+             </div>
+              </div>
+            <div class="d-flex flex-column" >
+             <div class="div1 p-3 " onclick="showDiv1()" style="border-bottom: 1px solid black;">
+              <h5>How Does Its Works ?</h5>
+             </div>
+             <div class="div2 my-3 p-3" style="display: none;" id="div3" >
+              <p >Get the best villa website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the best free CSS templates in the world. Please tell your friends about it.</p>
+             </div>
+              </div>
+            <div class="d-flex flex-column" >
+             <div class="div1 p-3 " onclick="showDiv2()" >
+              <h5>Why is Villa Agency the Best ?</h5>
+             </div>
+             <div class="div2 my-3 px-3" style="display: none;" id="div4" >
+              <p >Get the best villa website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the best free CSS templates in the world. Please tell your friends about it.</p>
+             </div>
+              </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-sm-6 flat col-12 my-3">
+        <div class=" p-4" style="border-bottom: 1px solid black;" >
+          <div class=" d-flex justify-content-center justify-content-around">
+            <div><img src="images/info-icon-01.png" alt=""></div>
+            <div class="d-flex flex-column "><h4>250 m2</h4>
+            <p>Total Flat Space</p>
+            </div>
+
+          </div>
+        </div>
+        <div class=" p-4" style="border-bottom: 1px solid black;" >
+          <div class=" d-flex justify-content-center justify-content-around">
+            <div><img src="images/info-icon-02.png" alt=""></div>
+            <div class="d-flex flex-column "><h4>Contract</h4>
+            <p>Contract Ready</p>
+            </div>
+
+          </div>
+        </div>
+        <div class=" p-4" style="border-bottom: 1px solid black;" >
+          <div class=" d-flex justify-content-center justify-content-around">
+            <div><img src="images/info-icon-03.png" alt=""></div>
+            <div class="d-flex flex-column "><h4>Payment</h4>
+            <p>Payment Process</p>
+            </div>
+
+          </div>
+        </div> <div class=" p-4"  >
+          <div class=" d-flex justify-content-center justify-content-around">
+            <div><img src="images/info-icon-04.png" alt=""></div>
+            <div class="d-flex flex-column "><h4>Safety</h4>
+            <p>24/7 Under Control</p>
+            </div>
+
+          </div>
+        </div>
+       
+      </div>
+</div>
+</div>
+
+  <!-- javascript bootstrap -->
+  <script src="js/js/bootstrap.bundle.js"></script>
+  <!-- javascript  -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>

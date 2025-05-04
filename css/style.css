@@ -1,0 +1,78 @@
+.navbar-brand{
+    font-weight: 700;
+    font-size: 35px;
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
+}
+.schedule-button {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e; /* dark background */
+    border-radius: 25px;
+    padding: 2px 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .schedule-button:hover{
+    color: #f35025;
+  }
+
+  .icon-circle {
+    background-color: #f35025; /* orange circle */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: -13px;
+  }
+
+  .icon-circle i {
+    color: white;
+    font-size: 18px;
+  }
+  .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel-item .button{
+    height: 40px;
+    width: 180px;
+    background-color: white;
+  }
+  .banner1{
+    width: 300px;
+  }
+  /* about us  */
+  .about-text span{
+    color: #EE626B;
+    font-size: 20px;
+    border-left: 3px solid #EE626B;
+  }
+  .about-text h1{
+    font-size: 42px;
+    font-weight: 800;
+  }
+  .about-text .div{
+    
+    background-color: #FAFAFA;
+    border-radius: 10px;
+  }
+  .flat{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .about-text .div1{
+    cursor: pointer;
+  }
+ 
+
+  

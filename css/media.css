@@ -1,0 +1,32 @@
+@media (min-width:1400px) {
+    .banner1{
+        margin-right: 600px;
+      }
+}
+@media (min-width:1200px) and (max-width:1399px){
+  .banner1{
+    margin-right: 600px;
+  }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .banner1{
+        width: 500px;
+    margin-right: 150px;
+
+      }
+}
+@media (min-width:768px) and (max-width:991px){
+    .banner1{
+        width: 500px;
+        margin-right: 150px;
+      }
+}
+@media (min-width:576px) and (max-width:767px){
+   .banner1{
+    width: 400px;
+    
+  }
+}
+@media (max-width:576px){
+  
+}
