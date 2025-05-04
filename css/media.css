@@ -26,7 +26,22 @@
     width: 400px;
     
   }
+  .video1 img{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .view{
+    margin-top: 40px;
+  }
 }
 @media (max-width:576px){
-  
+  .video1 img{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+  }
+  .view{
+    margin-top: 40px;
+  }
 }

@@ -73,6 +73,22 @@
   .about-text .div1{
     cursor: pointer;
   }
+  /* video section start  */
+  .video{
+    background-image: url(/images/video-bg.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+  }
+  .video1 img{
+    height: 60vh;
+    border-radius: 10px;
+    width: 90%;
+  }
+  .view{
+    margin-top: 200px;
+  }
+
  
 
   
