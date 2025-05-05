@@ -20,6 +20,9 @@
         width: 500px;
         margin-right: 150px;
       }
+      .divs{
+        width: 230px;
+      }
 }
 @media (min-width:576px) and (max-width:767px){
    .banner1{
@@ -34,6 +37,12 @@
   .view{
     margin-top: 40px;
   }
+  .divv{
+    height: 70vh;
+  }
+  .divs{
+    width: 80%;
+  }
 }
 @media (max-width:576px){
   .video1 img{
@@ -43,5 +52,11 @@
   }
   .view{
     margin-top: 40px;
+  }
+  .divv{
+    height: 70vh;
+  }
+  .divs{
+    width: 80%;
   }
 }

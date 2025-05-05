@@ -88,6 +88,20 @@
   .view{
     margin-top: 200px;
   }
+  /* video section end  */
+  .divv{
+    height: 100vh;
+  }
+  .divs{
+    height: 90px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #FFEEE9;
+  }
+  .divss{
+    /* margin-left: 130px; */
+  }
 
  
 
